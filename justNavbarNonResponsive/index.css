@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: black;
+    background: #71eeb8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 3px 4px;
+    border-radius: 9px;
+    transition: transform .2s;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-links li{
+    list-style: none;
+    padding: 3px 3px;
+    border-radius: 9px;
+    
+}
+.path{
+    font-size: 14px;
+    color:  #e30425;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-right: 1100px;
+    
+}
+
+.path a{
+    text-decoration: none;
+    color:  #e30425;
+    font-family: sans-serif;
+    
+}
+.selected_page3{
+    background-color: white;
+}
+.selected_page3 a{
+    color: black;
+}
+.nav-links li:hover {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(232,146,65,1) 0%, rgba(219,71,59,1) 100.2% );
+    
+    
+}
+.logo:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    cursor: none;
+    color: #d61818;
+    /*cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;*/
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding: 1px 0px;
+    background: #878d8a;
+}
+.creator{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
